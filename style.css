@@ -1,7 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
-
-
 /***************GENERAL STYLES****************/
 body {
   min-width: 100%;
@@ -30,6 +28,7 @@ button {
   padding-right: 23px;
   padding-left: 23px;
   transition: 0.2s ease-out;
+  cursor: pointer;
 }
 button:hover {
   background-color: rgb(57, 125, 231);
@@ -48,7 +47,6 @@ button:hover {
 /********************MAIN STYLES********************/
 
 /***********OPEN/CLOSE BUTTONS*************/
-
 
 #open-calc {
   position: absolute;
@@ -87,22 +85,22 @@ button:hover {
 
 /*********Popup header******/
 .popup-header {
-display: flex;
-justify-content: space-between;
-align-items: end;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 .popup-header h2 {
   display: inline-block;
 }
 .table-subtitle {
-  padding:0.2em ;
-  border-bottom: 0px ;
+  padding: 0.2em;
+  border-bottom: 0px;
+  cursor: pointer;
 }
 /********Popup body********/
 .popup-body {
   display: flex;
- align-items: center;
-
+  align-items: center;
 }
 
 .choose-row {
@@ -110,28 +108,29 @@ align-items: end;
   flex-direction: column;
   width: 10%;
   height: min-content;
-  border-right: 0px ;
+  border-right: 0px;
 }
-.check{
+.check {
   margin: 0.5em;
+  cursor: pointer;
 }
 
 .calc_container {
   display: flex;
-  border-bottom: 0px ;
+  border-bottom: 0px;
 }
-.calc_container:last-child{
-border-bottom:  2px solid rgb(57, 125, 231);
+.calc_container:last-child {
+  border-bottom: 2px solid rgb(57, 125, 231);
 }
 .add-number {
   display: flex;
   justify-content: space-around;
   padding: 1em;
 }
-.add-number input{
-width: 30%;
+.add-number input {
+  width: 30%;
 }
-.calc-result{
+.calc-result {
   border-left: 2px solid rgb(57, 125, 231);
   min-width: 20%;
   text-align: center;
@@ -141,9 +140,12 @@ width: 30%;
   display: flex;
   flex-direction: row;
 }
-.popup-footer-ul li{
+.popup-footer-ul li {
   padding: 0.2em;
 }
-.popup-footer-ul li:first-child{
+.popup-footer-ul li:first-child {
   margin-right: 0.5em;
+}
+.popup-footer-ul li label {
+  cursor: pointer;
 }
