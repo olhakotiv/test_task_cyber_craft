@@ -18,9 +18,8 @@ Different UI libraries like Bootstrap are available.
 What I did:
 
 1. The button 'Open calc' is working fine.
-You can see a result when you'll click a button 'Press Result'.
-2. With this task I had little problems such as I couldn't do automatically reload inputs and the inputs don't get clean with reloading window. I wanted to do calculations interactive but I got lost somewhere on StackOverflow searching how to do what I want ).
+2. You can see a result when you'll click a button 'Press Result'. With this task I had little problems such as I couldn't do automatically reload input values and the inputs don't get clean with reloading window. I wanted to do calculations interactive but I got lost somewhere on StackOverflow searching how to do what I want ).
 3. Checkboxes also work fine. If you'll press some the background color will change.
 
-P.S. Unfortunately the page doesn't have responsive design. I want to finish this task today after some sleeping because I did it all night and my brain's refusing to work. I know that my knowledge isn't so wide, but I know how to work hard for this goal.
+P.S. Unfortunately the page doesn't have responsive design. I want to finish this task today after some sleeping because I did it all night and my brain is refusing to work. I know that my knowledge isn't so wide yet, but I know how to work hard for this goal.
 And also sorry for mistakes in code and this text.
