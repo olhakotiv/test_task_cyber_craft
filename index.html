@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task For Cyber Craft</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="close-calc">Close Calc</button>
+      <button id="open-calc">Open Calc</button>
+
+      <div id="popup" class="popup-calc">
+        <div class="popup-header">
+          <h2>Simple Calc</h2>
+          <span class="resultBtn table-subtitle border">Press Result</span>
+        </div>
+
+        <div class="popup-body">
+          <div class="choose-row border">
+            <input
+              class="check checkbox1"
+              type="checkbox"
+              id="checkbox_1"
+              name="option1"
+              value="row1"
+            />
+            <input
+              class=" check checkbox2"
+              type="checkbox"
+              id="checkbox_2"
+              name=" option1"
+              value="row2"
+            />
+            <input
+              class="check checkbox3"
+              type="checkbox"
+              id="checkbox_3"
+              name="option1"
+              value="row3"
+            />
+          </div>
+
+          <div class=" calc-inputs">
+            <div class="calc_container border row1">
+              <div class="add-number add-number1">
+                <input
+                  class="add__value given-number1"
+                  type="number"
+                  placeholder="Number"
+                />
+
+                <input
+                  class="add__value given-number2"
+                  type="number"
+                  placeholder="Number"
+                />
+
+                <input
+                  class="add__value given-number3"
+                  type="number"
+                  placeholder="Number"
+                />
+              </div>
+              <div class="calc-result calc-result1">
+                <p>Number</p>
+              </div>
+            </div>
+
+            <div class="calc_container border row2">
+              <div class="add-number add-number2">
+                <input
+                  class="add__value given-number4"
+                  type="number"
+                  placeholder="Number"
+                />
+
+                <input
+                  class="add__value given-number5"
+                  type="number"
+                  placeholder="Number"
+                />
+
+                <input
+                  class="add__value given-number6"
+                  type="number"
+                  placeholder="Number"
+                />
+              </div>
+              <div class="calc-result calc-result2">
+                <p>Number</p>
+              </div>
+            </div>
+
+            <div class="calc_container border row3">
+              <div class="add-number add-number3">
+                <input
+                  class="add__value given-number7"
+                  type="number"
+                  placeholder="Number"
+                />
+
+                <input
+                  class="add__value given-number8"
+                  type="number"
+                  placeholder="Number"
+                />
+
+                <input
+                  class="gadd__value given-number9"
+                  type="number"
+                  placeholder="Number"
+                />
+              </div>
+              <div class="calc-result calc-result3">
+                <p>Number</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popup-footer">
+          <h3>Choose box</h3>
+          <ul class="popup-footer-ul">
+            <li class="border">
+              <input id="sum" type="radio" name="box" value="sum" /> Sum
+            </li>
+            <li class="border">
+              <input id="multiply" type="radio" name="box" value="multiply" />
+              Multiply
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
